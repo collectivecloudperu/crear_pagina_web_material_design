@@ -347,6 +347,7 @@ footer .mdl-logo {
 .mdl-seccion-nosotros1.mdl-card {
   width: 420px;
 }
+
 .mdl-seccion-nosotros1 > .mdl-card__seccion_nosotros {
   color: #000000;
   height: 176px;
@@ -430,6 +431,12 @@ footer .mdl-logo {
   -webkit-transform-origin: 149px 48px;
   transform-origin: 149px 48px;
   margin: 0;
+}
+
+@media (min-width:340px) {
+  .mdl-seccion-nosotros1.mdl-card, .mdl-seccion-nosotros2.mdl-card, .mdl-seccion-nosotros3.mdl-card {
+    width: 100%!important;
+  }
 }
 
 /****** Servicios *****/
@@ -567,7 +574,7 @@ footer .mdl-logo {
   margin: 0;
 }
 
-/* 2 */
+/* 5 */
 .mdl-seccion-servicios5.mdl-card {
   width: 420px;
   margin-bottom: -20px!important;
@@ -597,7 +604,7 @@ footer .mdl-logo {
   margin: 0;
 }
 
-/* 3 */
+/* 6 */
 .mdl-seccion-servicios6.mdl-card {
   width: 420px;
   margin-bottom: -20px!important;
@@ -634,6 +641,11 @@ footer .mdl-logo {
   margin-bottom: 40px;
 }
 
+@media (min-width:340px) {
+  .mdl-seccion-servicios1.mdl-card, .mdl-seccion-servicios2.mdl-card, .mdl-seccion-servicios3.mdl-card, .mdl-seccion-servicios4.mdl-card, .mdl-seccion-servicios5.mdl-card, .mdl-seccion-servicios6.mdl-card {
+    width: 100%!important;
+  }
+}
 
 /****** Contacto *****/
 
@@ -714,4 +726,10 @@ footer .mdl-logo {
 .idc {
   float: left;
   letter-spacing: 10px!important;
+}
+
+@media (min-width:340px) {
+  .mdl-seccion-formulario.mdl-card, .mdl-seccion-datoscontacto.mdl-card {
+    width: 85%!important;
+  }
 }
