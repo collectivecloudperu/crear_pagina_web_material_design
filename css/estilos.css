@@ -283,6 +283,12 @@ html, body {
   color: #444444;
 }
 
+@media (min-width:340px) {
+  .mdl-seccion-home1.mdl-card, .mdl-seccion-home2.mdl-card, .mdl-seccion-home3.mdl-card {
+    width: 100%!important;
+  }
+}
+
 /* Boletín (Newsletter) */ 
 .mld-txt-boletin {
   color: #000000;
@@ -730,6 +736,6 @@ footer .mdl-logo {
 
 @media (min-width:340px) {
   .mdl-seccion-formulario.mdl-card, .mdl-seccion-datoscontacto.mdl-card {
-    width: 85%!important;
+    width: 100%!important;
   }
 }
