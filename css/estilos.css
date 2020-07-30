@@ -283,7 +283,7 @@ html, body {
   color: #444444;
 }
 
-@media (min-width:340px) {
+@media (min-width:340px) and (max-width: 460px) {
   .mdl-seccion-home1.mdl-card, .mdl-seccion-home2.mdl-card, .mdl-seccion-home3.mdl-card {
     width: 100%!important;
   }
@@ -439,7 +439,7 @@ footer .mdl-logo {
   margin: 0;
 }
 
-@media (min-width:340px) {
+@media (min-width:340px) and (max-width: 460px) {
   .mdl-seccion-nosotros1.mdl-card, .mdl-seccion-nosotros2.mdl-card, .mdl-seccion-nosotros3.mdl-card {
     width: 100%!important;
   }
@@ -647,7 +647,7 @@ footer .mdl-logo {
   margin-bottom: 40px;
 }
 
-@media (min-width:340px) {
+@media (min-width:340px) and (max-width: 460px) {
   .mdl-seccion-servicios1.mdl-card, .mdl-seccion-servicios2.mdl-card, .mdl-seccion-servicios3.mdl-card, .mdl-seccion-servicios4.mdl-card, .mdl-seccion-servicios5.mdl-card, .mdl-seccion-servicios6.mdl-card {
     width: 100%!important;
   }
@@ -734,8 +734,11 @@ footer .mdl-logo {
   letter-spacing: 10px!important;
 }
 
-@media (min-width:340px) {
+@media (min-width:340px) and (max-width: 460px) {
   .mdl-seccion-formulario.mdl-card, .mdl-seccion-datoscontacto.mdl-card {
+    width: 100%!important;
+  }
+  .mdl-textfield {
     width: 100%!important;
   }
 }
